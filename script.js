@@ -22,3 +22,20 @@ navLinks.forEach((link) => {
     }
   });
 });
+let lastScrollTop = 0;
+const header = document.querySelector('.site-header');
+
+window.addEventListener('scroll', () => {
+  let currentScroll =
+    window.pageYOffset || document.documentElement.scrollTop;
+
+  if (currentScroll > lastScrollTop && currentScroll > 100) {
+    // scrolling down
+    header.style.transform = 'translateY(-100%)';
+  } else {
+    // scrolling up
+    header.style.transform = 'translateY(0)';
+  }
+
+  lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+});

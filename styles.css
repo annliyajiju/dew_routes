@@ -457,13 +457,7 @@ a {
     grid-auto-rows: minmax(220px, auto);
   }
 
-  .gallery-card:nth-child(1) {
-    grid-column: span 2;
-  }
-
-  .gallery-card:nth-child(4) {
-    grid-column: span 2;
-  }
+ 
 
   .reasons-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
