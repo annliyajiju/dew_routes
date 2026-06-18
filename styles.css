@@ -533,3 +533,20 @@ a {
     padding: 0.75rem 0;
   }
 }
+@media (max-width: 767px) {
+
+  .header-inner {
+    padding: 0.25rem 0;
+    min-height: 40px;
+  }
+
+  .brand {
+    font-size: 0.9rem;
+  }
+
+}
+@media (max-width: 767px) {
+  .hero-section {
+    padding-top: 3.5rem;
+  }
+}
