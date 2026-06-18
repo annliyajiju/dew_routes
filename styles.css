@@ -488,7 +488,41 @@ a {
     align-items: center;
   }
 }
+@media (max-width: 767px) {
 
+  .floating-whatsapp,
+  .floating.instagram {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .floating-whatsapp {
+    left: 20px;
+    right: auto;
+    bottom: 20px;
+  }
+
+  .floating.instagram {
+    right: 20px;
+    left: auto;
+    bottom: 20px;
+  }
+
+  .floating-whatsapp span,
+  .floating.instagram span {
+    font-size: 26px;
+  }
+
+  .floating-whatsapp,
+  .floating.instagram {
+    font-size: 0;
+  }
+}
 @media (max-width: 767px) {
   .site-nav {
     display: none;
