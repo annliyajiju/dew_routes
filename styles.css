@@ -277,8 +277,8 @@ a {
   border-radius: 2rem;
   padding: 2.5rem;
   box-shadow: 0 22px 60px rgba(0, 0, 0, 0.22);
- 
 }
+
 
 @media (max-width: 900px) {
   .about-grid {
